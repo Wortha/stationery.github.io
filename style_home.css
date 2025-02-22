@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+header {
+    background-color: #B8A891;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #B8A891;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.belownav {
+    background-color: #141720;
+    padding: 40px;
+}
+
+.belownav h1, .belownav h2, .belownav p {
+    text-align: left;
+    color:#fff;
+    font-family: sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #333;
+    color: #e4d9c9;
+    border: none;
+    cursor: pointer;
+}
+
+.featured-products {
+    background-color: #F2F2F2;
+    padding: 40px;
+}
+
+.featured-products h2 {
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+

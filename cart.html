@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="download.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style_cart.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="accountsRegister.html">Account</a></li>
+        <li><a href="product_elaborate.html">Products</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Your Cart</h1>
+    <section class="cart-container">
+      <!-- Sample cart item -->
+      <div class="cart-item">
+        <img src="images/2a paper.png" alt="Double A Paper">
+        <div class="item-details">
+          <p><strong>Double A, A4 Paper</strong></p>
+          <p>Price: Tk. 300</p>
+          <p>Quantity: 
+            <input type="number" name="quantity" value="1" min="1">
+          </p>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <!-- Total Price Section -->
+      <div class="cart-total">
+        <p>Total: Tk. 300</p>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <p><span>📍 Address:</span> 7/D/3-B, North Baridhara, Gulshan, Dhaka.</p>
+      <p><span>📧 Email:</span> <a href="mailto:support@xyz.com.bd">support@xyz.com.bd</a></p>
+      <p><span>⏰ Working Days/Hours:</span> Sun - Thu / 9:00AM - 8:00PM</p>
+    </div>
+  </footer>
+</body>
+</html>

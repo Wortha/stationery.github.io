@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="download.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style_register.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="form-container">
+        <h1>Register</h1>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+        <form id="registerForm" action="register.php" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+          
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+          
+          <button type="submit">Create An Account</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="contact-info">
+        <p><span>📍 Address:</span> 7/D/3-B, North Baridhara, Gulshan, Dhaka.</p>
+        <p><span>📧 Email:</span> <a href="mailto:support@xyz.com.bd">support@xyz.com.bd</a></p>
+        <p><span>⏰ Working Days/Hours:</span> Sun - Thu / 9:00AM - 8:00PM</p>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+</html>
